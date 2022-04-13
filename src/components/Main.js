@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Styled from 'styled-components'; // css inside of js.
+
 
 export default function Main(props) {
   return (
@@ -6,10 +8,14 @@ export default function Main(props) {
         <h1>Main</h1>
         <li>{props.name}</li>
         <li>{props.role}</li>
-        <h2>About</h2>
-        <h2>Projects</h2>
-        <h2>Contact</h2>
+        <Links>About</Links>
+        <Links>Projects</Links>
+        <Links>Contact</Links>
         </div>
   )
 }
+
+const Links = Styled.h2`
+  color: #FFB703
+`
 

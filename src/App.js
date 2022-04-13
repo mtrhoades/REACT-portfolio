@@ -5,14 +5,19 @@ import Main from './components/Main';
 import Header from './components/Header';
 
 
+
 export default function App() {
   return <div className='App'>
     <Header />
-    <div>
-      <LeftSide />
-      <Main name={'Matt Rhoades'} role={'Student'} />
-      <RightSide />
-    </div>
+    <br></br>
+    <br></br>
+    <body>
+      <div style={{display: 'flex', justifyContent: 'space-around'}}>
+        <LeftSide />
+        <Main name={'Matt Rhoades'} role={'Software Developer'} />
+        <RightSide />
+      </div>
+    </body>
   </div>
 
 }

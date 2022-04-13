@@ -1,4 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #126782;
+    color: #8ECAE6;
+    font-family: sans-serif;
 }
